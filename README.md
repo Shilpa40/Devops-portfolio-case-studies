@@ -35,8 +35,8 @@ To maintain confidentiality, implementation details, scripts, infrastructure nam
 
 # Case Studies
 
-## 1. CI/CD and Deployment Operations
-Status: In Progress
+## 1. [CI/CD and Deployment Operations](./case-study-1-cicd-deployment.md)
+Status: Completed
 
 Topics:
 - Jenkins
@@ -48,7 +48,7 @@ Topics:
 ---
 
 ## 2. Monitoring and Operations Automation
-Status: In Progress
+Status: Planned
 
 Topics:
 - Filebeat
@@ -60,7 +60,7 @@ Topics:
 ---
 
 ## 3. Environment Migration using RHEL and ASG
-Status: In Progress
+Status: Planned
 
 Topics:
 - AMI creation
