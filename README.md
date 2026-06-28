@@ -1,3 +1,9 @@
+| Project | Status |
+|----------|--------|
+| TerraformInfraCode | Complete |
+| DevOps Portfolio Case Studies | Active |
+| Serverless RDS → S3 Pipeline | Complete |
+
 # DevOps Portfolio Case Studies
 
 This repository contains portfolio case studies based on hands-on experience supporting CI/CD pipelines, deployments, infrastructure operations, monitoring, and automation.
