@@ -39,37 +39,58 @@ Worked with deployment automation workflows involving:
 
 ---
 
-### AWS Deployment Workflow
+## Deployment Workflow
 
-Supported deployment activities involving:
+The deployment process followed a structured CI/CD approach using separate repositories for application delivery and deployment automation.
 
-* EC2
-* AWS CodeDeploy
-* S3-based artifacts
-* Auto Scaling Groups
-* Load Balancers
-* Target Groups
-* Route53
+Repository structure:
+
+### Application Repository
+
+Contained:
+
+* Application source code
+* Build files
+* Application artifacts
+
+### DevOps Repository
+
+Contained:
+
+* Jenkins pipeline definitions
+* Deployment scripts
+* Application lifecycle scripts
+* Deployment configuration
 
 Typical deployment flow:
 
 ```text
-Source Code
+Application Repository
+(Source Code)
 ↓
-Build Pipeline
+DevOps Repository
+(Jenkins Pipeline + Deployment Scripts)
+↓
+Source Checkout
+↓
+Build Process
 ↓
 Artifact Packaging
 ↓
-Artifact Storage
+Artifact Storage (S3)
 ↓
-Code Deployment
+AWS CodeDeploy
 ↓
-Application Deployment
+Server Deployment
+(Start / Stop / Deploy WAR)
 ↓
-Validation
+Deployment Validation
 ↓
-Monitoring
+Monitoring and Verification
+(ELK / AppDynamics)
 ```
+
+The deployment workflow combined application delivery and operational automation to support controlled deployments across environments.
 
 ---
 
@@ -121,6 +142,18 @@ Worked with Linux-based operational automation including:
 
 ---
 
+## Challenges and Considerations
+
+Common operational considerations included:
+
+* Coordinating deployments across multiple environments
+* Validating deployment readiness
+* Monitoring application behavior after deployment
+* Supporting issue investigation using logs and monitoring tools
+* Maintaining deployment consistency
+
+---
+
 ## Key Outcomes
 
 * Supported stable deployment processes
@@ -137,3 +170,9 @@ Worked with Linux-based operational automation including:
 * Infrastructure coordination
 * Monitoring and observability
 * Production support practices
+
+---
+
+## Reflection
+
+This experience strengthened practical understanding of deployment workflows, operational ownership, monitoring practices, and environment coordination in production-style systems.
