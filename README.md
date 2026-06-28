@@ -35,7 +35,7 @@ To maintain confidentiality, implementation details, scripts, infrastructure nam
 
 # Case Studies
 
-## 1. [CI/CD and Deployment Operations](./case-study-1-cicd-deployment.md)
+## 1. CI/CD and Deployment Operations
 Status: Completed
 
 Topics:
@@ -67,6 +67,25 @@ Topics:
 - Auto Scaling Groups
 - Deployment validation
 - Infrastructure operations
+
+---
+
+## 4. Serverless RDS to S3 Data Export Pipeline
+Status: Completed
+
+Topics:
+- AWS Lambda
+- Amazon RDS
+- Amazon S3
+- EventBridge
+- Secrets Manager
+- CloudWatch
+- Serverless Architecture
+- Secure Connectivity
+- Automation
+
+Reference Project:
+serverless-rds-to-s3-pipeline
 
 ## Notes
 
