@@ -6,7 +6,15 @@ The goal is to showcase practical DevOps work while keeping implementation detai
 
 ---
 
-## Skills Demonstrated
+## Scope
+
+This repository documents generalized case studies derived from practical DevOps experience.
+
+To maintain confidentiality, implementation details, scripts, infrastructure naming, and environment specifics have been generalized while preserving technical workflows and decision-making.
+
+---
+
+## Technical Areas
 
 - AWS
 - Jenkins
@@ -27,42 +35,40 @@ The goal is to showcase practical DevOps work while keeping implementation detai
 
 # Case Studies
 
+# Case Studies
 
-
-## 1. Environment Migration using RHEL and ASG
+## 1. CI/CD and Deployment Operations
 Status: In Progress
 
 Topics:
-- RHEL upgrades
-- AMI creation
-- Auto Scaling Group recreation
-- Deployment validation
-- Monitoring and verification
-
----
-
-## 2. CI/CD and Deployment Operations
-Status: In Progress
-
-Topics:
-- Jenkins pipelines
+- Jenkins
+- AWS CodeDeploy
 - Multi-environment deployments
-- CodeDeploy
-- Artifact deployments
-- Application deployment workflows
+- Tomcat deployments
+- Release operations
 
 ---
-## 3. Monitoring and Operations Automation
+
+## 2. Monitoring and Operations Automation
 Status: In Progress
 
 Topics:
-- Filebeat automation
-- ELK monitoring
+- Filebeat
+- ELK
 - AppDynamics
-- Linux cleanup scripts
-- Log archival automation
+- Linux automation
+- Log archival
 
 ---
+
+## 3. Environment Migration using RHEL and ASG
+Status: In Progress
+
+Topics:
+- AMI creation
+- Auto Scaling Groups
+- Deployment validation
+- Infrastructure operations
 
 ## Notes
 
