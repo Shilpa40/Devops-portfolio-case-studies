@@ -35,8 +35,6 @@ To maintain confidentiality, implementation details, scripts, infrastructure nam
 
 # Case Studies
 
-# Case Studies
-
 ## 1. CI/CD and Deployment Operations
 Status: In Progress
 
@@ -72,4 +70,4 @@ Topics:
 
 ## Notes
 
-This repository intentionally contains generalized examples and documentation-only case studies.
+These case studies represent generalized operational experience and intentionally exclude internal source code, infrastructure details, and confidential implementation information.
