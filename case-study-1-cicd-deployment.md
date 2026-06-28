@@ -20,7 +20,7 @@ Support reliable application deployments across multiple environments while redu
 
 ### Deployment Operations
 
-* Supported deployment execution across QA, pre-production, and production environments
+* Supported deployment and release execution across QA, pre-production, and production environments
 * Coordinated application deployment activities
 * Performed deployment validation and post-deployment verification
 * Assisted in maintaining deployment reliability across environments
@@ -81,8 +81,8 @@ Artifact Storage (S3)
 ↓
 AWS CodeDeploy
 ↓
-Server Deployment
-(Start / Stop / Deploy WAR)
+Application Deployment
+(Server Lifecycle + WAR Deployment)
 ↓
 Deployment Validation
 ↓
@@ -131,7 +131,7 @@ Responsibilities included:
 
 ---
 
-## Linux and Automation Exposure
+## Linux Operations and Automation
 
 Worked with Linux-based operational automation including:
 
